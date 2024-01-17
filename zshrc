@@ -1,4 +1,4 @@
-echo 'hello '
+echo 'hello from .zshrc'
 
 # Set variables
 
@@ -12,7 +12,7 @@ alias ls='ls -lAFh'
 
 # Customize Promt(s)
 PROMPT='
-%ago ~ &L %F{white} %# %b%f%k'
+%n %1~ %L %# '
 
 RPROMPT='%*'
 
